@@ -451,19 +451,23 @@ footer p {
 
 @media (max-width: 1279px) {
 
+    .encabezado {
+        padding: 20px;
+    }
+
     .img-iphone img {
-        margin-top: 100px;
-        margin-left: 290px;
+        margin-top: 30px;
+        margin-left: 310px;
         width: 300px;
     }
 
     .titulo-principal {
         text-align: center;
         margin-left: 180px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
-    .titulo-principal h1{
+    .titulo-principal h1 {
         font-size: 30px;
     }
 
@@ -476,10 +480,11 @@ footer p {
         font-size: 15px;
     }
 
-    .icono-texto a{
+    .icono-texto a {
         font-size: 15px;
     }
-    .titulo-principal .titulo-oscuro{
+
+    .titulo-principal .titulo-oscuro {
         font-size: 18px;
     }
 
@@ -499,5 +504,44 @@ footer p {
     .imagenes-footer {
         margin-left: 50px;
     }
+     footer p{
+        font-size: 15px;
+        margin-right: 50px;
+    }
 }
 
+@media (max-width: 920px) {
+    .img-iphone img {
+        margin-left: 250px;
+        width: 250px;
+    }
+
+    .titulo-principal{
+        margin-left: 130px;
+    }
+
+    .texto-claro {
+        width: 500px;
+    }
+
+    .titulo-principal .titulo-oscuro {
+        width: 500px;
+    }
+
+    .texto-img{
+        margin-left: 80px;
+    }
+
+    .solo-dos{
+        margin-left: 80px;
+    }
+
+    .linea-footer{
+        width: 75%;
+    }
+
+    footer p{
+        font-size: 15px;
+        margin-right: 100px;
+    }
+}
