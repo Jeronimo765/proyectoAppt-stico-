@@ -74,7 +74,6 @@ button {
     padding: 15px 40px;
     border: none;
     border-radius: 30px;
-    cursor: pointer;
 }
 
 .contenedor-boton-texto {
@@ -451,26 +450,49 @@ footer p {
 
 
 @media (max-width: 1279px) {
-    .img-iphone img{
-        margin-left: 250px;
+
+    .img-iphone img {
+        margin-top: 100px;
+        margin-left: 290px;
+        width: 300px;
     }
 
     .titulo-principal {
-       text-align: center;
-       margin-left: 180px;
-       margin-bottom: 50px;
+        text-align: center;
+        margin-left: 180px;
+        margin-top: 20px;
     }
 
-    .contenedor-boton-texto{
-        margin-left: 70px;
+    .titulo-principal h1{
+        font-size: 30px;
     }
 
-    .solo-dos{
+    .texto-claro p {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+
+    .icono-texto a{
+        font-size: 15px;
+    }
+    .titulo-principal .titulo-oscuro{
+        font-size: 18px;
+    }
+
+    .contenedor-boton-texto {
+        margin-left: 90px;
+    }
+
+    .solo-dos {
         display: flex;
         margin-left: 200px;
     }
 
-    .linea-footer{
+    .linea-footer {
         width: 65%;
     }
 
@@ -478,3 +500,4 @@ footer p {
         margin-left: 50px;
     }
 }
+
