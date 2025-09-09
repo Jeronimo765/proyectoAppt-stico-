@@ -545,3 +545,56 @@ footer p {
         margin-right: 100px;
     }
 }
+
+@media (max-width: 768px) {
+    .img-iphone img {
+        width: 250px;
+        margin-left: 100px;
+    }
+
+    .titulo-principal h1{
+        width: 300px;
+    }
+
+    .titulo-principal {
+        margin-left: 80px;
+        width: 50%;
+    }
+
+    .texto-claro {
+        width: 0px;
+    }
+
+    .texto-claro p {
+        width: 300px;
+    }
+
+    .titulo-principal .titulo-oscuro{
+        width: 300px;
+    }
+
+    .titulo-principal .titulo-oscuro p {
+        width: 300px;
+    }
+
+    .contenedor-boton-texto {
+        width: 370px;
+        margin-left: 0px;
+    }
+
+    .circulo1 p{
+        width: 350px;
+    }
+
+    .circulo2 p{
+        width: 350px;
+    }
+
+    .circulo3 p {
+        width: 350px;
+    }
+
+    .solo-dos {
+        margin-left: 20px;
+    }
+}
