@@ -504,7 +504,8 @@ footer p {
     .imagenes-footer {
         margin-left: 50px;
     }
-     footer p{
+
+    footer p {
         font-size: 15px;
         margin-right: 50px;
     }
@@ -516,7 +517,7 @@ footer p {
         width: 250px;
     }
 
-    .titulo-principal{
+    .titulo-principal {
         margin-left: 130px;
     }
 
@@ -528,19 +529,19 @@ footer p {
         width: 500px;
     }
 
-    .texto-img{
+    .texto-img {
         margin-left: 80px;
     }
 
-    .solo-dos{
+    .solo-dos {
         margin-left: 80px;
     }
 
-    .linea-footer{
+    .linea-footer {
         width: 75%;
     }
 
-    footer p{
+    footer p {
         font-size: 15px;
         margin-right: 100px;
     }
@@ -552,7 +553,7 @@ footer p {
         margin-left: 100px;
     }
 
-    .titulo-principal h1{
+    .titulo-principal h1 {
         width: 300px;
     }
 
@@ -569,7 +570,7 @@ footer p {
         width: 300px;
     }
 
-    .titulo-principal .titulo-oscuro{
+    .titulo-principal .titulo-oscuro {
         width: 300px;
     }
 
@@ -582,11 +583,11 @@ footer p {
         margin-left: 0px;
     }
 
-    .circulo1 p{
+    .circulo1 p {
         width: 350px;
     }
 
-    .circulo2 p{
+    .circulo2 p {
         width: 350px;
     }
 
@@ -597,4 +598,65 @@ footer p {
     .solo-dos {
         margin-left: 20px;
     }
+
+    .linea-footer {
+        width: 80%;
+    }
+
+    footer p {
+        text-align: center;
+        margin-left: 120px;
+    }
+
+    .imagenes-footer {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-iphone img {
+        width: 170px;
+        margin-left: 75px;
+    }
+
+    .titulo-principal h1 {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .titulo-principal {
+        margin-left: 10px;
+        width: 50%;
+    }
+
+    .titulo-principal .texto-claro p {
+        font-size: 15px;
+    }
+
+    .titulo-principal .titulo-oscuro  {
+        font-size: 15px;
+    }
+
+    .contenedor-boton-texto {
+        width: 200px;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    .circulo1 p{
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .circulo2 p{
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .circulo3 p{
+        width: 250px;
+        font-size: 15px;
+    }
+
+    
 }
